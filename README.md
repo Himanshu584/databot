@@ -70,12 +70,12 @@ Open your browser at `http://localhost:8501`
 
 ### Pull from DockerHub
 ```bash
-docker pull himanshu584/databot
+docker pull hsharma2002/databot
 ```
 
 ### Run the container
 ```bash
-docker run -p 8501:8501 -e GEMINI_API_KEY=your_key_here himanshu584/databot
+docker run -p 8501:8501 -e GEMINI_API_KEY=your_key_here hsharma2002/databot
 ```
 
 Open your browser at `http://localhost:8501`
