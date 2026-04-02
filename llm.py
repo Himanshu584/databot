@@ -12,7 +12,7 @@ def configure_gemini():
     if not api_key:
         raise ValueError("GEMINI_API_KEY not found. Please add it to your .env file.")
     genai.configure(api_key=api_key)
-    return genai.GenerativeModel("gemini-1.5-flash")
+    return genai.GenerativeModel("gemini-3.1-flash-lite-preview")
 
 
 def ask_gemini(model, question, dataframe_info):

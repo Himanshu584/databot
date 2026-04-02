@@ -6,7 +6,7 @@ from llm import configure_gemini, ask_gemini, extract_code
 
 # ---- Page Configuration ----
 st.set_page_config(
-    page_title="Data Analysis ChatBot",
+    page_title="DataBot",
     page_icon="🤖",
     layout="wide"
 )
